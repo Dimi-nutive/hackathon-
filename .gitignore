@@ -2,3 +2,5 @@ pyvenv.cfg
 Lib/
 Scripts/
 push.bat
+__pycache__/
+build/
