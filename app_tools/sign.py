@@ -19,6 +19,7 @@ def register() -> int:
     x[str(len(x))]["name"] = name
     x[str(len(x))]["password"] = str(base64.b64encode(pwd.encode('ascii')))
     x[str(len(x))]["user_id"] = str(len(x))
+    x[str(len(x))]["attendance"] = 0
 
     USER_ID = str(len(x))
 

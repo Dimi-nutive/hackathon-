@@ -22,4 +22,11 @@ else:
         at.register()
     else:
         at.login()
-        print(at.MENU_UI)
+        
+        while True:
+            print(at.MENU_UI)
+            choice = input("PLEASE ENTER WHAT YOU WANT TO DO: ")
+            response = at.process_choice(choice)
+
+            if response == 1:
+                exit()
