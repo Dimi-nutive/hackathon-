@@ -1,1 +1,32 @@
-{"Cadbury": {"Sale": 332, "": "11%"}}
+{
+    "ChocolateDetails": {
+        "Chocolates":[
+            {
+                "Chocolate": "Choco Truffle",
+                "Sale": "1340",
+                "Profit": "11%"
+            },
+            {
+                "Chocolate": "Brown Bar",
+                "Sale": "1129",
+                "Profit": "8%"
+            },
+            {
+                "Chocolate": "White bubble",
+                "Sale": "1579",
+                "Profit": "17%"
+            },
+            {
+                "Chocolate": "Hazzle drops",
+                "Sale": "2321",
+                "Profit": "30%"
+            },
+            {
+                "Chocolate": "caramel blast",
+                "Sale": "1423",
+                "Profit": "15%"
+            }
+
+        ]
+    }
+}
