@@ -51,11 +51,21 @@ def train() -> int:
 
     if x == 'c':
         chocolate = '''
-        
-Please add the recipe here
-~ Atidipt
-        
-        '''
+Ingredients
+2 cup cocoa powder
+1/2 cup sugar
+1/4 teaspoon flour
+3/4 cup butter
+2/3 cup milk
+1 cup Water
+
+Recipe
+
+1. Mix the ingredients
+2. Whisk the chocolate paste
+3. Make sure there are no lumps
+4. Pour the mixture in the moulds and refrigerate
+'''
         print(chocolate)
 
         return 0
