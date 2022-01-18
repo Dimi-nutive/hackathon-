@@ -10,7 +10,7 @@ from cx_Freeze import setup, Executable
 
 base = None    
 
-executables = [Executable("main.py", base=base , icon="logo.ico")]
+executables = [Executable("main.py", base=base)]
 
 packages = ["idna"]
 options = {

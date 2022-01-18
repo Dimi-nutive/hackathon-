@@ -3,3 +3,4 @@ PyQt5
 opencv-python
 face_recognition
 numpy
+cx-Feeze

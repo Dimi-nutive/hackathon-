@@ -1,44 +1,25 @@
 {
-<<<<<<< HEAD
     "c":{
-    "name": " Choco Truffle",
-    "production-cost": 9,
-    "market-price": 16,
-    "produced": 1327,
-    "sold": 1302
+        "name": "Choco Truffle",
+        "production-cost": 9,
+        "market-price": 16,
+        "produced": 1327,
+        "sold": 1302
     },
 
     "b":{
-=======
-    "Choco Truffle":{
-    "name": " Choco Truffle",
-    "profuction-cost": 9,
-    "market-price": 16,
-    "produced": 1327,
-    "sold": 1302},
-
-             
-    "Brown Bar":{
->>>>>>> e3521f2a99f0ae64560aaabcc30786d9e5d0c4cf
         "name": "Brown Bar",
         "production-cost":7,
         "market-price":15,
         "produced": 1400,
-<<<<<<< HEAD
         "sold": 1369
     },
 
     "w": {
-=======
-        "sold": 1369},
-
-    "White Bublle": {
->>>>>>> e3521f2a99f0ae64560aaabcc30786d9e5d0c4cf
         "name":"White Bubble",
         "production-cost":10,
         "market-price":20,
         "produced": 1300,
-<<<<<<< HEAD
         "sold": 1294
     },
 
@@ -58,23 +39,3 @@
         "sold":1597
     }
 }
-=======
-        "sold": 1294},
-    
-
-        "Hazzle Drops":{
-            "name": "Hazzle Drops",
-            "production-cost": 15,
-            "makret-price": 35,
-            "produced":1250,
-            "sold": 1223},
-    
-        "Caramel Blast" :{
-            "name": "Caramel Blast",
-            "production-cost": 4,
-            "market-price":10,
-            "produced":1600,
-            "sold":1597}
-    }
-        
->>>>>>> e3521f2a99f0ae64560aaabcc30786d9e5d0c4cf

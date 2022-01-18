@@ -50,10 +50,6 @@ def train() -> int:
 
     if x == 'c':
         chocolate = '''
-<<<<<<< HEAD
-        
-=======
->>>>>>> e3521f2a99f0ae64560aaabcc30786d9e5d0c4cf
 Ingredients
 2 cup cocoa powder
 1/2 cup sugar
@@ -61,29 +57,22 @@ Ingredients
 3/4 cup butter
 2/3 cup milk
 1 cup Water
-<<<<<<< HEAD
-Recipe
-=======
 
 Recipe
 
->>>>>>> e3521f2a99f0ae64560aaabcc30786d9e5d0c4cf
 1. Mix the ingredients
 2. Whisk the chocolate paste
 3. Make sure there are no lumps
 4. Pour the mixture in the moulds and refrigerate
-<<<<<<< HEAD
         '''
-=======
-'''
->>>>>>> e3521f2a99f0ae64560aaabcc30786d9e5d0c4cf
+
         print(chocolate)
 
         return 0
 
     else:
         return 0
-<<<<<<< HEAD
+
 
 def sales():
     with open("assets\\sales_data.json" , "r") as f:
@@ -132,5 +121,3 @@ MRP: Rs. {mrp}
 
         print(result)
         return 0
-=======
->>>>>>> e3521f2a99f0ae64560aaabcc30786d9e5d0c4cf

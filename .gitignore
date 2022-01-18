@@ -4,3 +4,5 @@ Scripts/
 push.bat
 __pycache__/
 build/
+cx_Logging-doc/
+Libs/
