@@ -29,8 +29,7 @@ USER ID: {data[uid]["user_id"]}
         return 1
 
     elif choice == 's':
-        print("COMING SOON")
-        return 0
+        return sales()
 
     elif choice == 't':
 
@@ -52,13 +51,70 @@ def train() -> int:
     if x == 'c':
         chocolate = '''
         
-Please add the recipe here
-~ Atidipt
-        
+Ingredients
+2 cup cocoa powder
+1/2 cup sugar
+1/4 teaspoon flour
+3/4 cup butter
+2/3 cup milk
+1 cup Water
+Recipe
+1. Mix the ingredients
+2. Whisk the chocolate paste
+3. Make sure there are no lumps
+4. Pour the mixture in the moulds and refrigerate
         '''
         print(chocolate)
 
         return 0
 
     else:
+        return 0
+
+def sales():
+    with open("assets\\sales_data.json" , "r") as f:
+        d = json.load(f)
+
+    sales_menu= '''
+[C] - Choco Truffle Sales Info
+[B] - Brown Bar Sales Info
+[W] - White Bubble Sales Info
+[H] - Hazzle Drops Sales Info
+[D] - Caramel Blast Info
+
+Please Enter Menu Key: 
+    '''
+
+    c = input(sales_menu)
+    if c.lower() not in d:
+        print("Not a valid choice")
+        return 0
+    else:
+        cost = d[c]['production-cost']
+        mrp = d[c]['market-price']
+        produced = d[c]['produced']
+        sold = d[c]['sold']
+        tpc = produced*cost #total production cost
+        tsp = sold*mrp #total sold price
+        
+        if tpc > tsp:
+            state = "loss"
+            pl = tpc-tsp
+        elif tsp > tpc:
+            state = "profit"
+            pl = tsp-tpc
+        else:
+            state = "neutral"
+            pl = 0
+
+        result = f'''
+Name: {d[c]['name']}
+Produced this month: {produced}
+Sold this month: {sold}
+Loss/Profit: {state} of Rs. {round(pl)}        
+1 Chocolate Production Cost: Rs. {cost}
+MRP: Rs. {mrp}
+'''
+
+        print(result)
         return 0

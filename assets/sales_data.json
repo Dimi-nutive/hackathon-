@@ -1,0 +1,41 @@
+{
+    "c":{
+    "name": " Choco Truffle",
+    "production-cost": 9,
+    "market-price": 16,
+    "produced": 1327,
+    "sold": 1302
+    },
+
+    "b":{
+        "name": "Brown Bar",
+        "production-cost":7,
+        "market-price":15,
+        "produced": 1400,
+        "sold": 1369
+    },
+
+    "w": {
+        "name":"White Bubble",
+        "production-cost":10,
+        "market-price":20,
+        "produced": 1300,
+        "sold": 1294
+    },
+
+    "h":{
+        "name": "Hazzle Drops",
+        "production-cost": 15,
+        "makret-price": 35,
+        "produced":1250,
+        "sold": 1223
+    },
+    
+    "d" :{
+        "name": "Caramel Blast",
+        "production-cost": 4,
+        "market-price":10,
+        "produced":1600,
+        "sold":1597
+    }
+}
