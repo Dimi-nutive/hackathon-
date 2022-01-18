@@ -2,7 +2,7 @@
 Tools for the app
 '''
 
-from .sign import register , login
+from .sign import login
 from .app_res import process_choice
 
 INTRO_TEXT = '''

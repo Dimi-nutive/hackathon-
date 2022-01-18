@@ -1,34 +1,9 @@
 import json
 import base64
 import os
+import random
 
-def register() -> int:
-    name = input("ENTER YOUR NAME: ")
-
-    while True:
-        pwd = input("ENTER A PASSWORD: ")
-        if len(pwd) < 8:
-            print("Password must be 8 characters long")
-        else:
-            break
-
-    with open("assets\\users.json" , "r") as f:
-        x = json.load(f)
-
-    x[str(len(x)+1)] = {}
-    x[str(len(x))]["name"] = name
-    x[str(len(x))]["password"] = str(base64.b64encode(pwd.encode('ascii')))
-    x[str(len(x))]["user_id"] = str(len(x))
-    x[str(len(x))]["attendance"] = 0
-
-    USER_ID = str(len(x))
-
-    with open("assets\\users.json" , "w") as f_2:
-        json.dump(x , f_2)
-
-    print("Succesfully Registered!\nYour USER ID is {}".format(USER_ID))
-
-    return 0
+from .attendance import attendance_main
 
 def login() -> int:
     uid = input("PLEASE ENTER YOUR UID (User ID): ")
@@ -47,5 +22,6 @@ def login() -> int:
         else:
             os.system('cls')
             print("Welcome {}".format(z[uid]["name"]))
+            attendance_main()
 
-        return 0
+        return [0 , uid]

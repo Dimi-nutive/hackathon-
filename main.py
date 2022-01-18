@@ -7,22 +7,19 @@ os.system("cls")
 print(at.INTRO_TEXT)
 
 def signin():
-    print('[R] - Register\n[L] - Login')
-    x = input("Welcome!\nPlease Choose if you want to register or login: ").lower()
+    print('[L] - Login')
+    x = input("Welcome!\nPlease enter 'l' to login: ").lower()
 
     return x
 
 signin_ = signin()
 
-if signin_ != 'r' and signin_ != 'l':
+if signin_ != 'l':
     print("Thats an invalid choice please try again by running the application again")
-
 else:
-    if signin_ == 'r':
-        at.register()
-    else:
-        at.login()
+    e = at.login()
         
+    if e[0] == 0:
         while True:
             print(at.MENU_UI)
             choice = input("PLEASE ENTER WHAT YOU WANT TO DO: ")
