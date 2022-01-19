@@ -13,6 +13,8 @@ The user have to login and a famous personality photo would be there in their I'
 1. opencv-python
 2. cx-Freeze
 3. Requests
+4. face_recognition
+5. numpy
 
 ## Acknowledgements
 
