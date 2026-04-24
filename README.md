@@ -18,8 +18,8 @@ The user have to login and a famous personality photo would be there in their I'
 
 ## Acknowledgements
 
- - [Atidipt Mishra](https://github.com/Atidipt123)
- - [Akul Chaudhary](https://github.com/Dimi-nutive)
- - [Shaswat Raje](https://github.com/Shaswatraje)
- - [Shaurya Rawat](https://github.com/shauryarawat1507)
+ - [Atidipt](https://github.com/Atidipt123)
+ - [Akul](https://github.com/Dimi-nutive)
+ - [Shaswat](https://github.com/Shaswatraje)
+ - [Shaurya](https://github.com/shauryarawat1507)
 
